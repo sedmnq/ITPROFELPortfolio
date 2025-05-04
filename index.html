@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagrosa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div style="background-image: url('./images/NordWoodThemes-medium.jpg')">
+    <header>
+        <div class="container">
+            <h1>Dominique Lagrosa</h1>
+            <p>Web Developer based in Philippines</p>
+        </div>
+    </header>
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm a passionate web developer with expertise in creating responsive and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life through clean and efficient code.</p>
+                    <p>I enjoy solving complex problems and continuously learning new technologies to stay at the forefront of web development.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/dominiquelagrosa" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/dominiquelagrosa/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/sedmnq" class="social-icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="profile-img">
+                    <img src="./images/me.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-percent="90"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-percent="85"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-percent="80"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-php"></i>
+                    <h3>PHP</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-percent="65"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="./images/youtube.jpg" alt="Project 1">
+                    <h3>Video Sharing Platform</h3>
+                    <p>YouTube, a video sharing service where users can watch, like, share, comment and upload their own videos.</p>
+                    <div class="project-links">
+                        <a href="https://www.youtube.com/" class="btn">View Live</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./images/facebook.jpg" alt="Project 2">
+                    <h3>Social Networking Website</h3>
+                    <p>Facebook, a social networking website where people connect with friends, family, and others online.</p>
+                    <div class="project-links">
+                        <a href="https://www.facebook.com/" class="btn">View Live</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./images/instagram.png" alt="Project 3">
+                    <h3>Social Media Website</h3>
+                    <p>Instagram, a popular social media platform and mobile app primarily used for sharing photos and short videos.</p>
+                    <div class="project-links">
+                        <a href="https://www.instagram.com/" class="btn">View Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>cherwin.lagrosa@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+63999 999 9999</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>San Pablo City, Laguna, Philippines</p>
+                    </div>
+                </div>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Dominique Lagrosa</p>
+        </div>
+    </footer>
+
+    <button id="scroll-top" class="scroll-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
